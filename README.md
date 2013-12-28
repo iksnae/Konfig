@@ -1,7 +1,7 @@
 Konfig
 ======
 
-Inspired by Matt Thompson's GroundControl, Konfig provides a JSON based alternative
+Inspired by Matt Thompson's [GroundControl](https://github.com/mattt/GroundControl), Konfig provides a JSON based alternative
 
 ## Usage
 
