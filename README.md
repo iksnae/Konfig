@@ -8,7 +8,7 @@ Inspired by Matt Thompson's [GroundControl](https://github.com/mattt/GroundContr
 Loading and storing values:
 
 ```objective-c
-NSURL * url = [NSURL URLWithString:@"http://localhost:1337/strings.json"];
+NSURL * url = [NSURL URLWithString:@"http://example.com/strings.json"];
 [[NSUserDefaults standardUserDefaults]registerKonfigWithURL:url];
 ```
 
