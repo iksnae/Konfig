@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-
+#import "NSUserDefaults+Konfig.h"
 @interface ViewController ()
 
 @end
@@ -18,6 +18,7 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    [[NSUserDefaults standardUserDefaults]registerKonfigWithURL:[NSURL URLWithString:@"http://localhost:1337/strings.json"]];
 }
 
 - (void)didReceiveMemoryWarning

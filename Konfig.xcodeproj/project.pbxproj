@@ -22,6 +22,8 @@
 		CC86DB27186E6B0500C4FFC9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC86DB06186E6B0500C4FFC9 /* UIKit.framework */; };
 		CC86DB2F186E6B0500C4FFC9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CC86DB2D186E6B0500C4FFC9 /* InfoPlist.strings */; };
 		CC86DB31186E6B0500C4FFC9 /* KonfigTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CC86DB30186E6B0500C4FFC9 /* KonfigTests.m */; };
+		CC86DB3C186E6B1C00C4FFC9 /* NSUserDefaults+Konfig.m in Sources */ = {isa = PBXBuildFile; fileRef = CC86DB3B186E6B1C00C4FFC9 /* NSUserDefaults+Konfig.m */; };
+		CC86DB3E186E722E00C4FFC9 /* strings.json in Resources */ = {isa = PBXBuildFile; fileRef = CC86DB3D186E722E00C4FFC9 /* strings.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +57,9 @@
 		CC86DB2C186E6B0500C4FFC9 /* KonfigTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "KonfigTests-Info.plist"; sourceTree = "<group>"; };
 		CC86DB2E186E6B0500C4FFC9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CC86DB30186E6B0500C4FFC9 /* KonfigTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KonfigTests.m; sourceTree = "<group>"; };
+		CC86DB3A186E6B1C00C4FFC9 /* NSUserDefaults+Konfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSUserDefaults+Konfig.h"; sourceTree = "<group>"; };
+		CC86DB3B186E6B1C00C4FFC9 /* NSUserDefaults+Konfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSUserDefaults+Konfig.m"; sourceTree = "<group>"; };
+		CC86DB3D186E722E00C4FFC9 /* strings.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = strings.json; path = "../../chatwala-backend/public/strings.json"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +125,9 @@
 				CC86DB17186E6B0500C4FFC9 /* Main_iPad.storyboard */,
 				CC86DB1A186E6B0500C4FFC9 /* ViewController.h */,
 				CC86DB1B186E6B0500C4FFC9 /* ViewController.m */,
+				CC86DB3A186E6B1C00C4FFC9 /* NSUserDefaults+Konfig.h */,
+				CC86DB3B186E6B1C00C4FFC9 /* NSUserDefaults+Konfig.m */,
+				CC86DB3D186E722E00C4FFC9 /* strings.json */,
 				CC86DB1D186E6B0500C4FFC9 /* Images.xcassets */,
 				CC86DB09186E6B0500C4FFC9 /* Supporting Files */,
 			);
@@ -235,6 +243,7 @@
 				CC86DB1E186E6B0500C4FFC9 /* Images.xcassets in Resources */,
 				CC86DB16186E6B0500C4FFC9 /* Main_iPhone.storyboard in Resources */,
 				CC86DB0D186E6B0500C4FFC9 /* InfoPlist.strings in Resources */,
+				CC86DB3E186E722E00C4FFC9 /* strings.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,6 +265,7 @@
 				CC86DB1C186E6B0500C4FFC9 /* ViewController.m in Sources */,
 				CC86DB13186E6B0500C4FFC9 /* AppDelegate.m in Sources */,
 				CC86DB0F186E6B0500C4FFC9 /* main.m in Sources */,
+				CC86DB3C186E6B1C00C4FFC9 /* NSUserDefaults+Konfig.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
