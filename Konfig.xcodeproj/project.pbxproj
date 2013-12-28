@@ -23,7 +23,7 @@
 		CC86DB2F186E6B0500C4FFC9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CC86DB2D186E6B0500C4FFC9 /* InfoPlist.strings */; };
 		CC86DB31186E6B0500C4FFC9 /* KonfigTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CC86DB30186E6B0500C4FFC9 /* KonfigTests.m */; };
 		CC86DB3C186E6B1C00C4FFC9 /* NSUserDefaults+Konfig.m in Sources */ = {isa = PBXBuildFile; fileRef = CC86DB3B186E6B1C00C4FFC9 /* NSUserDefaults+Konfig.m */; };
-		CC86DB3E186E722E00C4FFC9 /* strings.json in Resources */ = {isa = PBXBuildFile; fileRef = CC86DB3D186E722E00C4FFC9 /* strings.json */; };
+		CC86DB40186E792500C4FFC9 /* strings.json in Resources */ = {isa = PBXBuildFile; fileRef = CC86DB3F186E792400C4FFC9 /* strings.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,7 +59,7 @@
 		CC86DB30186E6B0500C4FFC9 /* KonfigTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KonfigTests.m; sourceTree = "<group>"; };
 		CC86DB3A186E6B1C00C4FFC9 /* NSUserDefaults+Konfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSUserDefaults+Konfig.h"; sourceTree = "<group>"; };
 		CC86DB3B186E6B1C00C4FFC9 /* NSUserDefaults+Konfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSUserDefaults+Konfig.m"; sourceTree = "<group>"; };
-		CC86DB3D186E722E00C4FFC9 /* strings.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = strings.json; path = "../../chatwala-backend/public/strings.json"; sourceTree = "<group>"; };
+		CC86DB3F186E792400C4FFC9 /* strings.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = strings.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +89,7 @@
 		CC86DAF6186E6B0500C4FFC9 = {
 			isa = PBXGroup;
 			children = (
+				CC86DB3F186E792400C4FFC9 /* strings.json */,
 				CC86DB08186E6B0500C4FFC9 /* Konfig */,
 				CC86DB2A186E6B0500C4FFC9 /* KonfigTests */,
 				CC86DB01186E6B0500C4FFC9 /* Frameworks */,
@@ -127,7 +128,6 @@
 				CC86DB1B186E6B0500C4FFC9 /* ViewController.m */,
 				CC86DB3A186E6B1C00C4FFC9 /* NSUserDefaults+Konfig.h */,
 				CC86DB3B186E6B1C00C4FFC9 /* NSUserDefaults+Konfig.m */,
-				CC86DB3D186E722E00C4FFC9 /* strings.json */,
 				CC86DB1D186E6B0500C4FFC9 /* Images.xcassets */,
 				CC86DB09186E6B0500C4FFC9 /* Supporting Files */,
 			);
@@ -243,7 +243,7 @@
 				CC86DB1E186E6B0500C4FFC9 /* Images.xcassets in Resources */,
 				CC86DB16186E6B0500C4FFC9 /* Main_iPhone.storyboard in Resources */,
 				CC86DB0D186E6B0500C4FFC9 /* InfoPlist.strings in Resources */,
-				CC86DB3E186E722E00C4FFC9 /* strings.json in Resources */,
+				CC86DB40186E792500C4FFC9 /* strings.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
