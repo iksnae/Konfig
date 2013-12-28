@@ -17,17 +17,13 @@ NSURL * url = [NSURL URLWithString:@"http://localhost:1337/strings.json"];
 
 ```json
 {
-    "my_string": "this is my custom string provided via Kontrol",
+    "my_string": "this is my custom string provided via Konfig",
     "my_number": 256,
     "my_bool": false,
-    "my_array": [
-                 123,
-                 456,
-                 789
-                 ],
+    "my_array": [ 123, 456, 789 ],
     "my_dict": {
-        "a": "123",
-        "b": "456"
+        "a": "foo",
+        "b": "bar"
     }
 }
 ```
