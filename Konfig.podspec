@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "Konfig"
-  s.version      = "1.0.1"
+  s.version      = "1.0.2"
   s.summary      = "JSON based remote configuration for iOS apps"
   s.description  = <<-DESC 
 
