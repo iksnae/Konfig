@@ -8,18 +8,15 @@ Inspired by Matt Thompson's [GroundControl](https://github.com/mattt/GroundContr
 
                    DESC
   s.homepage     = "https://github.com/iksnae/Konfig"
-  # s.screenshots  = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license      = 'MIT'
   s.author       = { "Khalid Mills" => "mustkre8@gmail.com" }
   s.source       = { :git => "https://github.com/iksnae/Konfig.git", :tag => s.version.to_s }
-
-  # s.platform     = :ios, '6.0'
-  # s.ios.deployment_target = '6.0'
+  s.source_files = 'Konfig'
+  
+  s.platform     = :ios, '6.0'
   s.requires_arc = true
 
-  s.source_files = 'Classes'
-  s.resources = 'Assets'
+  
 
-  # s.public_header_files = 'Classes/**/*.h'
  
 end
