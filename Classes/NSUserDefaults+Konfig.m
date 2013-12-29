@@ -9,21 +9,18 @@
 #import "NSUserDefaults+Konfig.h"
 
 @implementation NSUserDefaults (Konfig)
+
 - (void)registerKonfigWithURL:(NSURL*)konfigURL
 {
     NSURLRequest * req = [NSURLRequest requestWithURL:konfigURL];
     [NSURLConnection sendAsynchronousRequest:req queue:[NSOperationQueue mainQueue] completionHandler:^(NSURLResponse *response, NSData *data, NSError *connectionError) {
         NSHTTPURLResponse * httpResponse = (NSHTTPURLResponse *)response;
         if (httpResponse.statusCode == 200) {
-            NSLog(@"success: %@",data);
             NSError * err = nil;
             NSDictionary * jsonDict = [NSJSONSerialization JSONObjectWithData:data options:NSJSONReadingMutableContainers error:&err];
-            NSLog(@"jsonDict: %@",jsonDict);
             if (!err) {
                 [self setValuesForKeysWithDictionary:jsonDict];
                 [self synchronize];
-            }else{
-                NSLog(@"failed to parse jsondata: %@",err);
             }
         }
     }];

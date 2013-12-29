@@ -1,7 +1,9 @@
-Konfig
-======
+# Konfig
 
-Inspired by Matt Thompson's [GroundControl](https://github.com/mattt/GroundControl), Konfig provides a JSON based alternative
+JSON based remote configuration for iOS apps
+
+Inspired by Matt Thompson's [GroundControl](https://github.com/mattt/GroundControl), Konfig provides a JSON based alternative for remote configuration of iOS apps
+
 
 ## Usage
 
@@ -11,8 +13,6 @@ Loading and storing values:
 NSURL * url = [NSURL URLWithString:@"http://example.com/strings.json"];
 [[NSUserDefaults standardUserDefaults]registerKonfigWithURL:url];
 ```
-
-
 ## Example Data
 
 ```json
@@ -28,4 +28,17 @@ NSURL * url = [NSURL URLWithString:@"http://example.com/strings.json"];
 }
 ```
 
+## Installation
 
+Konfig is available through [CocoaPods](http://cocoapods.org), to install
+it simply add the following line to your Podfile:
+
+    pod "Konfig"
+
+## Author
+
+Khalid Mills, mustkre8@gmail.com
+
+## License
+
+Konfig is available under the MIT license. See the LICENSE file for more info.
