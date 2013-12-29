@@ -1,0 +1,7 @@
+pod "Konfig", :path => "../Konfig.podspec"
+
+target "Konfig" do
+end
+
+target "KonfigTests" do
+end

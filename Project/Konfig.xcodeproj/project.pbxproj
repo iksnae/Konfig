@@ -23,7 +23,7 @@
 		CC86DB2F186E6B0500C4FFC9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CC86DB2D186E6B0500C4FFC9 /* InfoPlist.strings */; };
 		CC86DB31186E6B0500C4FFC9 /* KonfigTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CC86DB30186E6B0500C4FFC9 /* KonfigTests.m */; };
 		CC86DB40186E792500C4FFC9 /* strings.json in Resources */ = {isa = PBXBuildFile; fileRef = CC86DB3F186E792400C4FFC9 /* strings.json */; };
-		CCF73F5C186FF376009E8F16 /* NSUserDefaults+Konfig.m in Sources */ = {isa = PBXBuildFile; fileRef = CCF73F5A186FF376009E8F16 /* NSUserDefaults+Konfig.m */; };
+		CCD2414C187003530006D48E /* NSUserDefaults+Konfig.m in Sources */ = {isa = PBXBuildFile; fileRef = CCD2414B187003530006D48E /* NSUserDefaults+Konfig.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,8 +58,8 @@
 		CC86DB2E186E6B0500C4FFC9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CC86DB30186E6B0500C4FFC9 /* KonfigTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KonfigTests.m; sourceTree = "<group>"; };
 		CC86DB3F186E792400C4FFC9 /* strings.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = strings.json; sourceTree = "<group>"; };
-		CCF73F5A186FF376009E8F16 /* NSUserDefaults+Konfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSUserDefaults+Konfig.m"; path = "../../Classes/NSUserDefaults+Konfig.m"; sourceTree = "<group>"; };
-		CCF73F5B186FF376009E8F16 /* NSUserDefaults+Konfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSUserDefaults+Konfig.h"; path = "../../Classes/NSUserDefaults+Konfig.h"; sourceTree = "<group>"; };
+		CCD2414A187003530006D48E /* NSUserDefaults+Konfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSUserDefaults+Konfig.h"; path = "../../Konfig/NSUserDefaults+Konfig.h"; sourceTree = "<group>"; };
+		CCD2414B187003530006D48E /* NSUserDefaults+Konfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSUserDefaults+Konfig.m"; path = "../../Konfig/NSUserDefaults+Konfig.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,14 +120,14 @@
 		CC86DB08186E6B0500C4FFC9 /* Konfig */ = {
 			isa = PBXGroup;
 			children = (
+				CCD2414A187003530006D48E /* NSUserDefaults+Konfig.h */,
+				CCD2414B187003530006D48E /* NSUserDefaults+Konfig.m */,
 				CC86DB11186E6B0500C4FFC9 /* AppDelegate.h */,
 				CC86DB12186E6B0500C4FFC9 /* AppDelegate.m */,
 				CC86DB14186E6B0500C4FFC9 /* Main_iPhone.storyboard */,
 				CC86DB17186E6B0500C4FFC9 /* Main_iPad.storyboard */,
 				CC86DB1A186E6B0500C4FFC9 /* ViewController.h */,
 				CC86DB1B186E6B0500C4FFC9 /* ViewController.m */,
-				CCF73F5A186FF376009E8F16 /* NSUserDefaults+Konfig.m */,
-				CCF73F5B186FF376009E8F16 /* NSUserDefaults+Konfig.h */,
 				CC86DB1D186E6B0500C4FFC9 /* Images.xcassets */,
 				CC86DB09186E6B0500C4FFC9 /* Supporting Files */,
 			);
@@ -265,7 +265,7 @@
 				CC86DB1C186E6B0500C4FFC9 /* ViewController.m in Sources */,
 				CC86DB13186E6B0500C4FFC9 /* AppDelegate.m in Sources */,
 				CC86DB0F186E6B0500C4FFC9 /* main.m in Sources */,
-				CCF73F5C186FF376009E8F16 /* NSUserDefaults+Konfig.m in Sources */,
+				CCD2414C187003530006D48E /* NSUserDefaults+Konfig.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
